@@ -1,5 +1,12 @@
+import FeaturedPosts from '@/components/FeaturedPosts';
+import Hero from '@/components/Hero';
 import Image from 'next/image';
 
-export default function Home() {
-  return <main>home</main>;
+export default function HomePage() {
+  return (
+    <>
+      <Hero />
+      <FeaturedPosts />
+    </>
+  );
 }
